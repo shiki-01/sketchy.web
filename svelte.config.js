@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+const production = process.env.NODE_ENV === 'production';
 
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -14,7 +15,9 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		appDir: 'app',
-		paths: { base: '/sketchy.web' },
+		paths: {
+			base: production ? '/sketchy.web' : '',
+		},
 		serviceWorker: { register: false }
 	}
 };
