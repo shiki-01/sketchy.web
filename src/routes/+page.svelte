@@ -45,7 +45,7 @@
     <h1 style="color: {$currentTheme.main.color};">
       それはまるで、スケッチのように
     </h1>
-    <a class="download" href="/download">sketchyを手に入れる！</a>
+    <a class="download" href="./download">sketchyを手に入れる！</a>
     <div>
       <p style="color: {$currentTheme.main.color};">
         スケッチのようなデザインで、

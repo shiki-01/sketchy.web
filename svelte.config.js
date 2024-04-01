@@ -14,6 +14,9 @@ export default {
 			fallback: null,
 			precompress: false,
 			strict: true
-		})
+		}),
+		paths: {
+			base: '/sketchy.web',
+		},
 	}
 };

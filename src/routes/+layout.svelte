@@ -17,21 +17,21 @@
 
 <header style="background-color: {$currentTheme.header.background};">
   <div id="logo">
-    <a href="/"><img src={logo} alt="logo" /></a>
+    <a href="./"><img src={logo} alt="logo" /></a>
   </div>
   <div id="menu">
     <div id="link">
       <div id="home">
-        <a href="/" style="color: {$currentTheme.header.color};">Home</a>
+        <a href="./" style="color: {$currentTheme.header.color};">Home</a>
       </div>
       <div id="about">
-        <a href="/about" style="color: {$currentTheme.header.color};">About</a>
+        <a href="./about" style="color: {$currentTheme.header.color};">About</a>
       </div>
       <div id="learn">
-        <a href="/learn" style="color: {$currentTheme.header.color};">Learn</a>
+        <a href="./learn" style="color: {$currentTheme.header.color};">Learn</a>
       </div>
       <div id="download">
-        <a href="/download" style="color: {$currentTheme.header.color};"
+        <a href="./download" style="color: {$currentTheme.header.color};"
           >Download</a
         >
       </div>
@@ -53,7 +53,10 @@
 </main>
 <footer style="background-color: {$currentTheme.header.background};">
   <p style="color: {$currentTheme.header.color};">
-    © 2024 <a href="https://github.com/shiki-01" style="color: {$currentTheme.header.color};">🔗shiki-01</a>
+    © 2024 <a
+      href="https://github.com/shiki-01"
+      style="color: {$currentTheme.header.color};">🔗shiki-01</a
+    >
   </p>
 </footer>
 
